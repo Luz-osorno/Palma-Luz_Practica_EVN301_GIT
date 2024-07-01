@@ -1,2 +1,1 @@
-Hola profeeee
-Este es mi sitio web creado por luz
+La landin ficticia tiene de objetivo que se motiven para registrarse  para poder proporcionar las tendencias de ropa
