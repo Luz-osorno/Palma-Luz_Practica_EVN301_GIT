@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Micro+5+Charted&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Junge&family=Micro+5+Charted&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color: #FAF9F8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+main {
+    width: 100%;
+    background-color: #E8E5DF;
+}
+.inicio {
+    width: 90%;
+    padding: 7px;
+    text-align: left;
+    margin-left: 0;
+}
+
+.tendencia {
+    font-size: 3rem;
+    margin-top: 5px;
+    font-family: "Junge", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    margin-left: 100px;
+}
+.iniciouno {
+    width: 50%;
+    padding: 9px;
+    text-align: left;
+    font-size: 2.5rem;
+    position: relative;
+    top: -60px;
+    font-family: "Junge", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 100px;
+}
+.Cuadro {
+    background-color: #E8E5DF;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.parrafo {
+    width: 40%;
+    margin-top: -80px;
+    text-align: left;
+    padding: 10px; 
+    font-size: 1.2rem;
+}
+
+.contacto {
+    width: 100%;
+    text-align: left;
+    margin-top: 60px;
+    font-size: 1.2rem;
+}
+
+#formulario {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.cuadro-imagenes {
+    height: 10px;
+    display: flex;
+}
+
+#imagenuno, #imagendos, #imagentres {
+    position: absolute;
+    right: 0;
+    width: 29%;
+    height: auto;
+    object-fit: cover;
+}
+
+#imagenuno {
+    top: 110px;
+    width: 56%;
+}
+
+#imagendos {
+    top: 70px;
+}
+
+#imagentres {
+    top: 320px;
+}
+
+#imagenes img {
+    max-width: 300px; 
+    max-height: 500px; 
+}
+input[type=reset]{
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(233, 233, 233);
+    box-sizing: border-box;
+    background-color: #ffffff;
+    font-family: "Nunito Sans", sans-serif;
+
+  }
+  input[type=submit]{
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(233, 233, 233);
+    box-sizing: border-box;
+    background-color: #ffffff;
+    font-family: "Nunito Sans", sans-serif;
+  }
